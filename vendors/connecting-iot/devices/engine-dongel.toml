@@ -1,0 +1,9 @@
+[device]
+id = "80a87699-1cb9-4b64-9fd7-01ed6e76be3a"
+name = "ENGINE-DONGEL"
+description = "Engine dongle for barges: engine hours, status and diagnostics over LoRaWAN."
+
+[[device.firmware]]
+version = "0.1"
+profiles = ["EU868-1_1_0-CLASS_C.toml"]
+codec = "engine-dongel.js"

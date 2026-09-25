@@ -1,0 +1,16 @@
+[vendor]
+id = "0fda601e-6fa5-4dd6-b0e7-c361ce5a64b4"
+name = "Connecting IOT"
+
+# 0 means no LoRa Alliance vendor ID has been assigned. Five upstream vendors sit on 0 as
+# well, so it does not have to be unique -- fill it in if an allocation is ever granted.
+vendor_id = 0
+ouis = []
+
+devices = [
+    "engine-dongel.toml",
+    "lidar-5x5.toml",
+]
+
+[vendor.metadata]
+homepage = "https://connecting-iot.nl/"

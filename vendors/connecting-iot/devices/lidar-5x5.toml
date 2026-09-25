@@ -1,0 +1,13 @@
+[device]
+id = "5e855f9e-b505-4a40-bcb3-f77f07c5a9ec"
+name = "LIDAR 5x5"
+description = "VL53L8CX time-of-flight sensor reporting a 5x5 grid of distances, for fill level in waste containers and tanks."
+
+[[device.firmware]]
+version = "1.0"
+profiles = ["EU868-1_0_3.toml"]
+codec = "lidar-5x5.js"
+
+[device.metadata]
+sensor = "ST VL53L8CX"
+zones = "25"
